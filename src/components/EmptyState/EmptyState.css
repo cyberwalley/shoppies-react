@@ -1,0 +1,29 @@
+
+.empty-state__wrapper .grid__item{
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.empty-state_megatext{
+  font-size: 2.1rem;
+  line-height: 1.2;
+}
+
+.empty-state_subtext{
+  font-size: 1.2rem;
+  line-height: 1.3333333333;
+  margin-top: 20px;
+  margin-bottom: 31px;
+  color: var(--color-gray);
+}
+
+@media screen and (max-width: 590px) {
+  .empty-state_megatext {
+    font-size: 2.1rem;
+  }
+
+  .empty-state_subtext{
+    font-size: 1.3rem;
+  }
+}

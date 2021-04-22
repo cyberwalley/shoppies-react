@@ -1,0 +1,52 @@
+.search-form{
+  margin-top: 2.5625em;
+}
+
+.search-form__input{
+  font-size: 1em;
+  border-radius: 5px;
+  min-width: 60%;
+  font-size: 1em;
+  border-radius: 5px;
+  min-width: 60%;
+  height: 45px;
+  vertical-align: bottom;
+  border: none;
+  padding: 10px;
+  margin-right: 7px;
+}
+
+@media screen and (max-width: 590px) {
+  .search-form__input{
+    min-width: 100%;
+  }
+  
+}
+
+.mega-subtitle a{
+  color: var(--color-white);
+}
+
+.mega-microtitle{
+  margin-top: 15px;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-white);
+  text-shadow: 0 0 4px rgba(0,0,0,0.4);
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+.mega-microtitle a{
+  color: var(--color-white);
+}
+
+.mega-microtitle a:hover{
+  text-decoration: underline;
+}
+
+a.mega-microtitle__link{
+  text-decoration: underline;
+}

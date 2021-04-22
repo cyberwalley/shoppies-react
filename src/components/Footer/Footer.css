@@ -1,0 +1,17 @@
+.footer-wrapper{
+  background-color: var(--color-lighter-green);
+  padding: 4em 0;
+  height: auto;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.footer-inner-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 20px 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px
+}

@@ -1,0 +1,22 @@
+.narrowWidth{
+  display: block;
+  max-width: var(--desktop-width);
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.fullWidth{ 
+  height: 100%;
+  width: 100%;
+}
+
+/* Mobile */
+@media screen and (max-width: 590px) {
+  .narrowWidth{
+    max-width: var(--mobile-width);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
